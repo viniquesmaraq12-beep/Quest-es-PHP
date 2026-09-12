@@ -1,0 +1,14 @@
+<?php
+
+$idade = readline("Digite sua idade: ");
+
+if ($idade <= 12) {
+    echo "Classificação: Criança\n";
+} elseif ($idade <= 17) {
+    echo "Classificação: Adolescente\n";
+} elseif ($idade <= 59) {
+    echo "Classificação: Adulto\n";
+} else {
+    echo "Classificação: Idoso\n";
+}
+?>
