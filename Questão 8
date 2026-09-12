@@ -1,0 +1,14 @@
+<?php
+
+$usuarioCorreto = "admin";
+$senhaCorreta = "1234";
+
+$usuario = readline("Digite o usuário: ");
+$senha = readline("Digite a senha: ");
+
+if ($usuario == $usuarioCorreto && $senha == $senhaCorreta) {
+    echo "Login realizado com sucesso!\n";
+} else {
+    echo "Usuário ou senha incorretos.\n";
+}
+?>
