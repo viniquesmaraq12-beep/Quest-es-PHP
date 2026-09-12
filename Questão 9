@@ -1,0 +1,12 @@
+<?php
+
+$temperatura = readline("Digite a temperatura: ");
+
+if ($temperatura < 15) {
+    echo "Temperatura: Frio\n";
+} elseif ($temperatura <= 25) {
+    echo "Temperatura: Agradável\n";
+} else {
+    echo "Temperatura: Quente\n";
+}
+?>
